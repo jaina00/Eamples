@@ -4,7 +4,7 @@
 		module="testapp_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170217111814"
+		publication="20170222212653"
 	>
 		<description>
 		TestApp
@@ -40,5 +40,6 @@
 		<dependency org="org.json4s" name="json4s-jackson_2.11" rev="3.2.11" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.1" conf="test->default(compile)"/>
 		<dependency org="org.scala-lang" name="scala-reflect" rev="2.11.8" conf="compile->default(compile)"/>
+		<dependency org="org.typelevel" name="cats_2.11" rev="0.7.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
