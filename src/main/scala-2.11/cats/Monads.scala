@@ -1,3 +1,5 @@
+package cats
+
 
 //Monads are used to provide a standard interface for
 // composing and sequencing operations on some contained values
