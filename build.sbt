@@ -4,6 +4,7 @@ version := "1.0"
 
 scalaVersion := "2.11.8"
 
+//scalacOptions ++= Seq("-unchecked", "-feature", "-Xfatal-warnings")
 
 libraryDependencies ++= {
   Seq(
@@ -14,6 +15,9 @@ libraryDependencies ++= {
     "org.scalatest" % "scalatest_2.11" % "3.0.1" % "test",
     "org.scala-lang" % "scala-reflect" % scalaVersion.value,
     "org.typelevel" %% "cats" % "0.7.2",
-    "com.typesafe.akka" %% "akka-cluster" % "2.4.17"
+    "com.typesafe.akka" %% "akka-cluster" % "2.4.17",
+    "com.typesafe.akka" %% "akka-persistence" % "2.4.0",
+    "org.iq80.leveldb" % "leveldb" % "0.7"
+
   )
 }

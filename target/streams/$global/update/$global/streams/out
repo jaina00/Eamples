@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for testapp#testapp_2.11;1.0 [compile]
 [debug] == resolving dependencies testapp#testapp_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@583b1aa5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41cc3b39
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -664,21 +664,8 @@
 [debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-cluster_2.11;2.4.17 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-cluster_2.11;2.4.17 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-cluster_2.11;2.4.17 {compile=[default(compile)]}
-[info] Resolving com.typesafe.akka#akka-cluster_2.11;2.4.17 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-cluster_2.11;2.4.17 {compile=[default(compile)]}
-[debug] 		tried /home/abhishek/.ivy2/local/com.typesafe.akka/akka-cluster_2.11/2.4.17/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-cluster_2.11;2.4.17
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.4.17/akka-cluster_2.11-2.4.17.pom
-[debug] 	public: found md file for com.typesafe.akka#akka-cluster_2.11;2.4.17
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.4.17/akka-cluster_2.11-2.4.17.pom (2.4.17)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.4.17/akka-cluster_2.11-2.4.17.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.4.17/akka-cluster_2.11-2.4.17.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.4.17/akka-cluster_2.11-2.4.17.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.4.17/akka-cluster_2.11-2.4.17.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-cluster_2.11;2.4.17!akka-cluster_2.11.pom(pom.original) (89ms)
-[debug] 		tried /home/abhishek/.ivy2/local/com.typesafe.akka/akka-cluster_2.11/2.4.17/jars/akka-cluster_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.4.17/akka-cluster_2.11-2.4.17.jar
-[debug] 	found com.typesafe.akka#akka-cluster_2.11;2.4.17 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-cluster_2.11;2.4.17
+[debug] 	found com.typesafe.akka#akka-cluster_2.11;2.4.17 in sbt-chain
 [debug] 	[2.4.17] com.typesafe.akka#akka-cluster_2.11;2.4.17
 [debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-cluster_2.11;2.4.17 [compile->runtime]
 [debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-cluster_2.11;2.4.17 [compile->compile]
@@ -687,21 +674,8 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.17->com.typesafe.akka#akka-remote_2.11;2.4.17 [compile->master(compile)]
 [info] Resolving com.typesafe.akka#akka-remote_2.11;2.4.17 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-remote_2.11;2.4.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.typesafe.akka#akka-remote_2.11;2.4.17 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-remote_2.11;2.4.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/abhishek/.ivy2/local/com.typesafe.akka/akka-remote_2.11/2.4.17/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-remote_2.11;2.4.17
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.17/akka-remote_2.11-2.4.17.pom
-[debug] 	public: found md file for com.typesafe.akka#akka-remote_2.11;2.4.17
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.17/akka-remote_2.11-2.4.17.pom (2.4.17)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.17/akka-remote_2.11-2.4.17.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.17/akka-remote_2.11-2.4.17.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.17/akka-remote_2.11-2.4.17.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.17/akka-remote_2.11-2.4.17.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.11;2.4.17!akka-remote_2.11.pom(pom.original) (428ms)
-[debug] 		tried /home/abhishek/.ivy2/local/com.typesafe.akka/akka-remote_2.11/2.4.17/jars/akka-remote_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.17/akka-remote_2.11-2.4.17.jar
-[debug] 	found com.typesafe.akka#akka-remote_2.11;2.4.17 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-remote_2.11;2.4.17
+[debug] 	found com.typesafe.akka#akka-remote_2.11;2.4.17 in sbt-chain
 [debug] 	[2.4.17] com.typesafe.akka#akka-remote_2.11;2.4.17
 [debug] == resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.17->com.typesafe.akka#akka-remote_2.11;2.4.17 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -709,21 +683,8 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->master(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.17 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.17 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/abhishek/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.4.17/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-actor_2.11;2.4.17
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.pom
-[debug] 	public: found md file for com.typesafe.akka#akka-actor_2.11;2.4.17
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.pom (2.4.17)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4.17!akka-actor_2.11.pom(pom.original) (65ms)
-[debug] 		tried /home/abhishek/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.4.17/jars/akka-actor_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.jar
-[debug] 	found com.typesafe.akka#akka-actor_2.11;2.4.17 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.17
+[debug] 	found com.typesafe.akka#akka-actor_2.11;2.4.17 in sbt-chain
 [debug] 	[2.4.17] com.typesafe.akka#akka-actor_2.11;2.4.17
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.17->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -749,21 +710,8 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->com.typesafe.akka#akka-stream_2.11;2.4.17 [compile->master(compile)]
 [info] Resolving com.typesafe.akka#akka-stream_2.11;2.4.17 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-stream_2.11;2.4.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.typesafe.akka#akka-stream_2.11;2.4.17 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-stream_2.11;2.4.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/abhishek/.ivy2/local/com.typesafe.akka/akka-stream_2.11/2.4.17/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-stream_2.11;2.4.17
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.17/akka-stream_2.11-2.4.17.pom
-[debug] 	public: found md file for com.typesafe.akka#akka-stream_2.11;2.4.17
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.17/akka-stream_2.11-2.4.17.pom (2.4.17)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.17/akka-stream_2.11-2.4.17.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.17/akka-stream_2.11-2.4.17.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.17/akka-stream_2.11-2.4.17.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.17/akka-stream_2.11-2.4.17.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.11;2.4.17!akka-stream_2.11.pom(pom.original) (527ms)
-[debug] 		tried /home/abhishek/.ivy2/local/com.typesafe.akka/akka-stream_2.11/2.4.17/jars/akka-stream_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.17/akka-stream_2.11-2.4.17.jar
-[debug] 	found com.typesafe.akka#akka-stream_2.11;2.4.17 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-stream_2.11;2.4.17
+[debug] 	found com.typesafe.akka#akka-stream_2.11;2.4.17 in sbt-chain
 [debug] 	[2.4.17] com.typesafe.akka#akka-stream_2.11;2.4.17
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->com.typesafe.akka#akka-stream_2.11;2.4.17 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-stream_2.11;2.4.17->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -791,21 +739,8 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [compile->master(compile)]
 [info] Resolving com.typesafe.akka#akka-protobuf_2.11;2.4.17 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-protobuf_2.11;2.4.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.typesafe.akka#akka-protobuf_2.11;2.4.17 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-protobuf_2.11;2.4.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/abhishek/.ivy2/local/com.typesafe.akka/akka-protobuf_2.11/2.4.17/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.typesafe.akka#akka-protobuf_2.11;2.4.17
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.17/akka-protobuf_2.11-2.4.17.pom
-[debug] 	public: found md file for com.typesafe.akka#akka-protobuf_2.11;2.4.17
-[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.17/akka-protobuf_2.11-2.4.17.pom (2.4.17)
-[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.17/akka-protobuf_2.11-2.4.17.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.17/akka-protobuf_2.11-2.4.17.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.17/akka-protobuf_2.11-2.4.17.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.17/akka-protobuf_2.11-2.4.17.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-protobuf_2.11;2.4.17!akka-protobuf_2.11.pom(pom.original) (894ms)
-[debug] 		tried /home/abhishek/.ivy2/local/com.typesafe.akka/akka-protobuf_2.11/2.4.17/jars/akka-protobuf_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.17/akka-protobuf_2.11-2.4.17.jar
-[debug] 	found com.typesafe.akka#akka-protobuf_2.11;2.4.17 in public
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-protobuf_2.11;2.4.17
+[debug] 	found com.typesafe.akka#akka-protobuf_2.11;2.4.17 in sbt-chain
 [debug] 	[2.4.17] com.typesafe.akka#akka-protobuf_2.11;2.4.17
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.17->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -813,24 +748,8 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.netty#netty;3.10.6.Final [compile->master(compile)]
 [info] Resolving io.netty#netty;3.10.6.Final ...
 [debug] sbt-chain: Checking cache for: dependency: io.netty#netty;3.10.6.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving io.netty#netty;3.10.6.Final ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: io.netty#netty;3.10.6.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/abhishek/.ivy2/local/io.netty/netty/3.10.6.Final/ivys/ivy.xml
-[debug] 	local: no ivy file found for io.netty#netty;3.10.6.Final
-[debug] 		tried https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom
-[debug] 	public: found md file for io.netty#netty;3.10.6.Final
-[debug] 		=> https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom (3.10.6.Final)
-[debug] downloading https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom
-[debug] 	[SUCCESSFUL ] io.netty#netty;3.10.6.Final!netty.pom(pom.original) (92ms)
-[info] Resolving org.sonatype.oss#oss-parent;9 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9
-[debug] 		tried /home/abhishek/.ivy2/local/io.netty/netty/3.10.6.Final/bundles/netty.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
-[debug] 	found io.netty#netty;3.10.6.Final in public
+[debug] sbt-chain: module revision found in cache: io.netty#netty;3.10.6.Final
+[debug] 	found io.netty#netty;3.10.6.Final in sbt-chain
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.netty#netty;3.10.6.Final [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(compile)]
 [info] Resolving org.uncommons.maths#uncommons-maths;1.2.2a ...
@@ -843,59 +762,20 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.aeron#aeron-driver;1.1.0 [compile->master(compile)]
 [info] Resolving io.aeron#aeron-driver;1.1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: io.aeron#aeron-driver;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving io.aeron#aeron-driver;1.1.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: io.aeron#aeron-driver;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/abhishek/.ivy2/local/io.aeron/aeron-driver/1.1.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for io.aeron#aeron-driver;1.1.0
-[debug] 		tried https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.1.0/aeron-driver-1.1.0.pom
-[debug] 	public: found md file for io.aeron#aeron-driver;1.1.0
-[debug] 		=> https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.1.0/aeron-driver-1.1.0.pom (1.1.0)
-[debug] downloading https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.1.0/aeron-driver-1.1.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.1.0/aeron-driver-1.1.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.1.0/aeron-driver-1.1.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.1.0/aeron-driver-1.1.0.pom
-[debug] 	[SUCCESSFUL ] io.aeron#aeron-driver;1.1.0!aeron-driver.pom(pom.original) (67ms)
-[debug] 		tried /home/abhishek/.ivy2/local/io.aeron/aeron-driver/1.1.0/jars/aeron-driver.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.1.0/aeron-driver-1.1.0.jar
-[debug] 	found io.aeron#aeron-driver;1.1.0 in public
+[debug] sbt-chain: module revision found in cache: io.aeron#aeron-driver;1.1.0
+[debug] 	found io.aeron#aeron-driver;1.1.0 in sbt-chain
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.aeron#aeron-driver;1.1.0 [compile->compile(*)]
 [debug] == resolving dependencies io.aeron#aeron-driver;1.1.0->io.aeron#aeron-client;1.1.0 [compile->master(compile)]
 [info] Resolving io.aeron#aeron-client;1.1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: io.aeron#aeron-client;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving io.aeron#aeron-client;1.1.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: io.aeron#aeron-client;1.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/abhishek/.ivy2/local/io.aeron/aeron-client/1.1.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for io.aeron#aeron-client;1.1.0
-[debug] 		tried https://repo1.maven.org/maven2/io/aeron/aeron-client/1.1.0/aeron-client-1.1.0.pom
-[debug] 	public: found md file for io.aeron#aeron-client;1.1.0
-[debug] 		=> https://repo1.maven.org/maven2/io/aeron/aeron-client/1.1.0/aeron-client-1.1.0.pom (1.1.0)
-[debug] downloading https://repo1.maven.org/maven2/io/aeron/aeron-client/1.1.0/aeron-client-1.1.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/aeron/aeron-client/1.1.0/aeron-client-1.1.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/aeron/aeron-client/1.1.0/aeron-client-1.1.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/aeron/aeron-client/1.1.0/aeron-client-1.1.0.pom
-[debug] 	[SUCCESSFUL ] io.aeron#aeron-client;1.1.0!aeron-client.pom(pom.original) (762ms)
-[debug] 		tried /home/abhishek/.ivy2/local/io.aeron/aeron-client/1.1.0/jars/aeron-client.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/aeron/aeron-client/1.1.0/aeron-client-1.1.0.jar
-[debug] 	found io.aeron#aeron-client;1.1.0 in public
+[debug] sbt-chain: module revision found in cache: io.aeron#aeron-client;1.1.0
+[debug] 	found io.aeron#aeron-client;1.1.0 in sbt-chain
 [debug] == resolving dependencies io.aeron#aeron-driver;1.1.0->io.aeron#aeron-client;1.1.0 [compile->compile(*)]
 [debug] == resolving dependencies io.aeron#aeron-client;1.1.0->org.agrona#agrona;0.9.2 [compile->master(compile)]
 [info] Resolving org.agrona#agrona;0.9.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.agrona#agrona;0.9.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.agrona#agrona;0.9.2 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.agrona#agrona;0.9.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/abhishek/.ivy2/local/org.agrona/agrona/0.9.2/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.agrona#agrona;0.9.2
-[debug] 		tried https://repo1.maven.org/maven2/org/agrona/agrona/0.9.2/agrona-0.9.2.pom
-[debug] 	public: found md file for org.agrona#agrona;0.9.2
-[debug] 		=> https://repo1.maven.org/maven2/org/agrona/agrona/0.9.2/agrona-0.9.2.pom (0.9.2)
-[debug] downloading https://repo1.maven.org/maven2/org/agrona/agrona/0.9.2/agrona-0.9.2.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/agrona/agrona/0.9.2/agrona-0.9.2.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/agrona/agrona/0.9.2/agrona-0.9.2.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/agrona/agrona/0.9.2/agrona-0.9.2.pom
-[debug] 	[SUCCESSFUL ] org.agrona#agrona;0.9.2!agrona.pom(pom.original) (71ms)
-[debug] 		tried /home/abhishek/.ivy2/local/org.agrona/agrona/0.9.2/jars/agrona.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/agrona/agrona/0.9.2/agrona-0.9.2.jar
-[debug] 	found org.agrona#agrona;0.9.2 in public
+[debug] sbt-chain: module revision found in cache: org.agrona#agrona;0.9.2
+[debug] 	found org.agrona#agrona;0.9.2 in sbt-chain
 [debug] == resolving dependencies io.aeron#aeron-client;1.1.0->org.agrona#agrona;0.9.2 [compile->compile(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.aeron#aeron-client;1.1.0 [compile->master(compile)]
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.aeron#aeron-client;1.1.0 [compile->compile(*)]
@@ -930,6 +810,128 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.17->com.typesafe.akka#akka-remote_2.11;2.4.17 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.17->com.typesafe.akka#akka-remote_2.11;2.4.17 [runtime->compile]
 [debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-cluster_2.11;2.4.17 [compile->master]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-persistence_2.11;2.4.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-persistence_2.11;2.4.0 {compile=[default(compile)]}
+[info] Resolving com.typesafe.akka#akka-persistence_2.11;2.4.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-persistence_2.11;2.4.0 {compile=[default(compile)]}
+[debug] 		tried /home/abhishek/.ivy2/local/com.typesafe.akka/akka-persistence_2.11/2.4.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.typesafe.akka#akka-persistence_2.11;2.4.0
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.11/2.4.0/akka-persistence_2.11-2.4.0.pom
+[debug] 	public: found md file for com.typesafe.akka#akka-persistence_2.11;2.4.0
+[debug] 		=> https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.11/2.4.0/akka-persistence_2.11-2.4.0.pom (2.4.0)
+[debug] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.11/2.4.0/akka-persistence_2.11-2.4.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.11/2.4.0/akka-persistence_2.11-2.4.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.11/2.4.0/akka-persistence_2.11-2.4.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.11/2.4.0/akka-persistence_2.11-2.4.0.pom
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-persistence_2.11;2.4.0!akka-persistence_2.11.pom(pom.original) (63ms)
+[debug] 		tried /home/abhishek/.ivy2/local/com.typesafe.akka/akka-persistence_2.11/2.4.0/jars/akka-persistence_2.11.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.11/2.4.0/akka-persistence_2.11-2.4.0.jar
+[debug] 	found com.typesafe.akka#akka-persistence_2.11;2.4.0 in public
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->runtime]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [runtime->compile]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->default(compile)]
+[info] Resolving org.iq80.leveldb#leveldb;0.7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.iq80.leveldb#leveldb;0.7 {compile=[default(compile)]}
+[info] Resolving org.iq80.leveldb#leveldb;0.7 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.iq80.leveldb#leveldb;0.7 {compile=[default(compile)]}
+[debug] 		tried /home/abhishek/.ivy2/local/org.iq80.leveldb/leveldb/0.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.iq80.leveldb#leveldb;0.7
+[debug] 		tried https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.7/leveldb-0.7.pom
+[debug] 	public: found md file for org.iq80.leveldb#leveldb;0.7
+[debug] 		=> https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.7/leveldb-0.7.pom (0.7)
+[debug] downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.7/leveldb-0.7.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.7/leveldb-0.7.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.7/leveldb-0.7.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.7/leveldb-0.7.pom
+[debug] 	[SUCCESSFUL ] org.iq80.leveldb#leveldb;0.7!leveldb.pom(pom.original) (54ms)
+[info] Resolving org.iq80.leveldb#leveldb-project;0.7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.iq80.leveldb#leveldb-project;0.7 {}
+[info] Resolving org.iq80.leveldb#leveldb-project;0.7 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.iq80.leveldb#leveldb-project;0.7 {}
+[debug] 		tried /home/abhishek/.ivy2/local/org.iq80.leveldb/leveldb-project/0.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.iq80.leveldb#leveldb-project;0.7
+[debug] 		tried https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-project/0.7/leveldb-project-0.7.pom
+[debug] 	public: found md file for org.iq80.leveldb#leveldb-project;0.7
+[debug] 		=> https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-project/0.7/leveldb-project-0.7.pom (0.7)
+[debug] downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-project/0.7/leveldb-project-0.7.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-project/0.7/leveldb-project-0.7.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-project/0.7/leveldb-project-0.7.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-project/0.7/leveldb-project-0.7.pom
+[debug] 	[SUCCESSFUL ] org.iq80.leveldb#leveldb-project;0.7!leveldb-project.pom(pom.original) (47ms)
+[debug] 		tried /home/abhishek/.ivy2/local/org.iq80.leveldb/leveldb-project/0.7/jars/leveldb-project.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-project/0.7/leveldb-project-0.7.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-project/0.7/leveldb-project-0.7.jar
+[debug] 		tried /home/abhishek/.activator/repository/org.iq80.leveldb/leveldb-project/0.7/jars/leveldb-project.jar
+[debug] 		tried /home/abhishek/Applications/activator-dist-1.3.10/repository/org.iq80.leveldb/leveldb-project/0.7/jars/leveldb-project.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/org/iq80/leveldb/leveldb-project/0.7/leveldb-project-0.7.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/iq80/leveldb/leveldb-project/0.7/leveldb-project-0.7.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.iq80.leveldb/leveldb-project/0.7/jars/leveldb-project.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.iq80.leveldb/leveldb-project/0.7/jars/leveldb-project.jar
+[debug] 		tried /home/abhishek/.ivy2/local/org.iq80.leveldb/leveldb/0.7/jars/leveldb.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.7/leveldb-0.7.jar
+[debug] 	found org.iq80.leveldb#leveldb;0.7 in public
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->runtime]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->compile]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->master(compile)]
+[info] Resolving org.iq80.leveldb#leveldb-api;0.7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.iq80.leveldb#leveldb-api;0.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.iq80.leveldb#leveldb-api;0.7 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.iq80.leveldb#leveldb-api;0.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/abhishek/.ivy2/local/org.iq80.leveldb/leveldb-api/0.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.iq80.leveldb#leveldb-api;0.7
+[debug] 		tried https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7.pom
+[debug] 	public: found md file for org.iq80.leveldb#leveldb-api;0.7
+[debug] 		=> https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7.pom (0.7)
+[debug] downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7.pom
+[debug] 	[SUCCESSFUL ] org.iq80.leveldb#leveldb-api;0.7!leveldb-api.pom(pom.original) (63ms)
+[info] Resolving org.iq80.leveldb#leveldb-project;0.7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.iq80.leveldb#leveldb-project;0.7 {}
+[debug] sbt-chain: module revision found in cache: org.iq80.leveldb#leveldb-project;0.7
+[debug] 		tried /home/abhishek/.ivy2/local/org.iq80.leveldb/leveldb-api/0.7/jars/leveldb-api.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7.jar
+[debug] 	found org.iq80.leveldb#leveldb-api;0.7 in public
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->compile(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->runtime(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->compile]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->master(compile)]
+[info] Resolving com.google.guava#guava;16.0.1 ...
+[debug] sbt-chain: Checking cache for: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.google.guava#guava;16.0.1
+[debug] 	found com.google.guava#guava;16.0.1 in sbt-chain
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->compile(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->runtime(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->compile]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->compile]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->compile]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for testapp#testapp_2.11;1.0 [runtime]
 [debug] == resolving dependencies for testapp#testapp_2.11;1.0 [compile]
@@ -1475,6 +1477,43 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.aeron#aeron-client;1.1.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.aeron#aeron-client;1.1.0 [runtime->compile]
 [debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-cluster_2.11;2.4.17 [compile->master]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->runtime]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [runtime->compile]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->default(compile)]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->runtime]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->compile]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->master(compile)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->compile(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->master(compile)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->compile(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->compile]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->compile]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for testapp#testapp_2.11;1.0 [test]
 [debug] == resolving dependencies for testapp#testapp_2.11;1.0 [runtime]
@@ -2021,6 +2060,43 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.aeron#aeron-client;1.1.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.aeron#aeron-client;1.1.0 [runtime->compile]
 [debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-cluster_2.11;2.4.17 [compile->master]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->runtime]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [runtime->compile]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->default(compile)]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->runtime]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->compile]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->master(compile)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->compile(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->master(compile)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->compile(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->compile]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->compile]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->master]
 [debug] == resolving dependencies testapp#testapp_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;3.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;3.0.1 {test=[default(compile)]}
@@ -2625,6 +2701,43 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.aeron#aeron-client;1.1.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.aeron#aeron-client;1.1.0 [runtime->compile]
 [debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-cluster_2.11;2.4.17 [compile->master]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->runtime]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [runtime->compile]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->default(compile)]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->runtime]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->compile]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->master(compile)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->compile(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->master(compile)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->compile(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->compile]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->compile]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->master]
 [debug] == resolving dependencies for testapp#testapp_2.11;1.0 [optional]
 [debug] == resolving dependencies for testapp#testapp_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
@@ -3173,6 +3286,43 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.aeron#aeron-client;1.1.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.aeron#aeron-client;1.1.0 [runtime->compile]
 [debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-cluster_2.11;2.4.17 [compile->master]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->runtime]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [runtime->compile]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->default(compile)]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->runtime]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->compile]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->master(compile)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->compile(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->master(compile)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->compile(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->compile]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->compile]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->master]
 [debug] == resolving dependencies for testapp#testapp_2.11;1.0 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for testapp#testapp_2.11;1.0 [test-internal]
@@ -3721,6 +3871,43 @@
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.aeron#aeron-client;1.1.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.17->io.aeron#aeron-client;1.1.0 [runtime->compile]
 [debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-cluster_2.11;2.4.17 [compile->master]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->default(compile)]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->runtime]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [compile->master(compile)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [compile->compile(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.17 [runtime->compile]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [runtime->runtime(*)]
+[debug] == resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.17 [runtime->compile]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->default(compile)]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->runtime]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->compile]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->master(compile)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->compile(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->master(compile)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->compile(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->compile]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->compile]
+[debug] == resolving dependencies testapp#testapp_2.11;1.0->org.iq80.leveldb#leveldb;0.7 [compile->master]
 [debug] == resolving dependencies testapp#testapp_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->default(compile)]
 [debug] == resolving dependencies testapp#testapp_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->runtime]
 [debug] == resolving dependencies testapp#testapp_2.11;1.0->org.scalatest#scalatest_2.11;3.0.1 [test->compile]
@@ -3851,12 +4038,19 @@
 [debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.11;3.2.11!json4s-jackson_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.typelevel#cats_2.11;0.7.2!cats_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.4.17/akka-cluster_2.11-2.4.17.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.4.17/akka-cluster_2.11-2.4.17.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.4.17/akka-cluster_2.11-2.4.17.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.4.17/akka-cluster_2.11-2.4.17.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.4.17/akka-cluster_2.11-2.4.17.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-cluster_2.11;2.4.17!akka-cluster_2.11.jar (2684ms)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-cluster_2.11;2.4.17!akka-cluster_2.11.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.11/2.4.0/akka-persistence_2.11-2.4.0.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.11/2.4.0/akka-persistence_2.11-2.4.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.11/2.4.0/akka-persistence_2.11-2.4.0.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.11/2.4.0/akka-persistence_2.11-2.4.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence_2.11/2.4.0/akka-persistence_2.11-2.4.0.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-persistence_2.11;2.4.0!akka-persistence_2.11.jar (224ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.7/leveldb-0.7.jar
+[info] downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.7/leveldb-0.7.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.7/leveldb-0.7.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.7/leveldb-0.7.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.7/leveldb-0.7.jar
+[info] 	[SUCCESSFUL ] org.iq80.leveldb#leveldb;0.7!leveldb.jar (66ms)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(bundle)
 [debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(bundle)
@@ -3886,62 +4080,29 @@
 [debug] 	[NOT REQUIRED] org.typelevel#catalysts-platform_2.11;0.0.2!catalysts-platform_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.typelevel#catalysts-macros_2.11;0.0.2!catalysts-macros_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.17/akka-remote_2.11-2.4.17.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.17/akka-remote_2.11-2.4.17.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.17/akka-remote_2.11-2.4.17.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.17/akka-remote_2.11-2.4.17.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.17/akka-remote_2.11-2.4.17.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.11;2.4.17!akka-remote_2.11.jar (3253ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.17/akka-actor_2.11-2.4.17.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4.17!akka-actor_2.11.jar (3680ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.17/akka-stream_2.11-2.4.17.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.17/akka-stream_2.11-2.4.17.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.17/akka-stream_2.11-2.4.17.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.17/akka-stream_2.11-2.4.17.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.17/akka-stream_2.11-2.4.17.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.11;2.4.17!akka-stream_2.11.jar (5154ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.17/akka-protobuf_2.11-2.4.17.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.17/akka-protobuf_2.11-2.4.17.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.17/akka-protobuf_2.11-2.4.17.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.17/akka-protobuf_2.11-2.4.17.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.17/akka-protobuf_2.11-2.4.17.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-protobuf_2.11;2.4.17!akka-protobuf_2.11.jar (846ms)
-[debug] 		tried https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
-[info] downloading https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.jar
-[info] 	[SUCCESSFUL ] io.netty#netty;3.10.6.Final!netty.jar(bundle) (2936ms)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.11;2.4.17!akka-remote_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.17!akka-actor_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.11;2.4.17!akka-stream_2.11.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.11;2.4.17!akka-protobuf_2.11.jar
+[debug] 	[NOT REQUIRED] io.netty#netty;3.10.6.Final!netty.jar(bundle)
 [debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.1.0/aeron-driver-1.1.0.jar
-[info] downloading https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.1.0/aeron-driver-1.1.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.1.0/aeron-driver-1.1.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.1.0/aeron-driver-1.1.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.1.0/aeron-driver-1.1.0.jar
-[info] 	[SUCCESSFUL ] io.aeron#aeron-driver;1.1.0!aeron-driver.jar (128ms)
-[debug] 		tried https://repo1.maven.org/maven2/io/aeron/aeron-client/1.1.0/aeron-client-1.1.0.jar
-[info] downloading https://repo1.maven.org/maven2/io/aeron/aeron-client/1.1.0/aeron-client-1.1.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/aeron/aeron-client/1.1.0/aeron-client-1.1.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/aeron/aeron-client/1.1.0/aeron-client-1.1.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/aeron/aeron-client/1.1.0/aeron-client-1.1.0.jar
-[info] 	[SUCCESSFUL ] io.aeron#aeron-client;1.1.0!aeron-client.jar (100ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/agrona/agrona/0.9.2/agrona-0.9.2.jar
-[info] downloading https://repo1.maven.org/maven2/org/agrona/agrona/0.9.2/agrona-0.9.2.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/agrona/agrona/0.9.2/agrona-0.9.2.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/agrona/agrona/0.9.2/agrona-0.9.2.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/agrona/agrona/0.9.2/agrona-0.9.2.jar
-[info] 	[SUCCESSFUL ] org.agrona#agrona;0.9.2!agrona.jar (2752ms)
+[debug] 	[NOT REQUIRED] io.aeron#aeron-driver;1.1.0!aeron-driver.jar
+[debug] 	[NOT REQUIRED] io.aeron#aeron-client;1.1.0!aeron-client.jar
+[debug] 	[NOT REQUIRED] org.agrona#agrona;0.9.2!agrona.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7.jar
+[info] downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7.jar
+[info] 	[SUCCESSFUL ] org.iq80.leveldb#leveldb-api;0.7!leveldb-api.jar (66ms)
+[debug] 	[NOT REQUIRED] com.google.guava#guava;16.0.1!guava.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.1!scalatest_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.11;3.0.1!scalactic_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 8488ms :: artifacts dl 21566ms
+[debug] :: resolution report :: resolve 2797ms :: artifacts dl 376ms
 [debug] 	report for testapp#testapp_2.11;1.0 compile produced in /home/abhishek/Desktop/Abhishek/Examples/target/resolution-cache/reports/testapp-testapp_2.11-compile.xml
 [debug] 	report for testapp#testapp_2.11;1.0 runtime produced in /home/abhishek/Desktop/Abhishek/Examples/target/resolution-cache/reports/testapp-testapp_2.11-runtime.xml
 [debug] 	report for testapp#testapp_2.11;1.0 test produced in /home/abhishek/Desktop/Abhishek/Examples/target/resolution-cache/reports/testapp-testapp_2.11-test.xml
@@ -3955,5 +4116,5 @@
 [debug] 	report for testapp#testapp_2.11;1.0 docs produced in /home/abhishek/Desktop/Abhishek/Examples/target/resolution-cache/reports/testapp-testapp_2.11-docs.xml
 [debug] 	report for testapp#testapp_2.11;1.0 pom produced in /home/abhishek/Desktop/Abhishek/Examples/target/resolution-cache/reports/testapp-testapp_2.11-pom.xml
 [debug] 	report for testapp#testapp_2.11;1.0 scala-tool produced in /home/abhishek/Desktop/Abhishek/Examples/target/resolution-cache/reports/testapp-testapp_2.11-scala-tool.xml
-[debug] 	resolve done (8488ms resolve - 21566ms download)
+[debug] 	resolve done (2797ms resolve - 376ms download)
 [info] Done updating.
